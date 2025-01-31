@@ -7,12 +7,5 @@
     "psr-4": {
       "GoAIEAA2025\\": "src/"
     }
-  },
-  "extra": {
-    "shopware-plugin-class": "GoAIEAA2025\\GoAIEAA2025",
-    "label": {
-      "de-DE": "GoAIEAA2025 plugin",
-      "en-GB": "GoAIEAA2025 plugin"
-    }
   }
 }
