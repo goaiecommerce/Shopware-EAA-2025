@@ -1,0 +1,10 @@
+{% sw_extends '@Storefront/storefront/base.html.twig' %}
+{% block base_body_script %}
+    {{ parent() }}
+    {% set scriptUrl = config('GoAIEAA2025.config.scriptUrl') %}
+    {% if scriptUrl %}
+        {% block base_body_script_eaa %}
+            <script src="{{ scriptUrl|raw }}" defer></script>
+        {% endblock %}
+    {% endif %}
+{% endblock %}
